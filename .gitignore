@@ -36,8 +36,6 @@ bower_components
 # eslint
 .eslintcache
 
-dist
-
 input
 output/DECIPHERED.json
 secret
