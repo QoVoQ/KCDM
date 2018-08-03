@@ -2,11 +2,11 @@ import base, {banner} from './rollup.config.base';
 
 const config = Object.assign({}, base, {
   output: {
-    file: 'dist/KCDM.umd.js',
+    file: 'dist/kcdm.umd.js',
     format: 'umd',
     banner
   },
-  name: 'KCDM'
+  name: 'kcdm'
 });
 
 export default config;

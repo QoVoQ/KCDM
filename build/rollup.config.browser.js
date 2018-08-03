@@ -3,11 +3,11 @@ import {uglify} from 'rollup-plugin-uglify';
 
 const config = Object.assign({}, base, {
   output: {
-    file: 'dist/KCDM.min.js',
+    file: 'dist/kcdm.min.js',
     format: 'iife',
     banner
   },
-  name: 'KCDM'
+  name: 'kcdm'
 });
 
 config.plugins.push(uglify());

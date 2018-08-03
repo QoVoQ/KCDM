@@ -1,10 +1,10 @@
 {
-  "name": "KCDM",
+  "name": "kcdm",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/KCDM.umd.js",
-  "module": "dist/KCDM.esm.js",
-  "unpkg": "dist/KCDM.min.js",
+  "main": "dist/kcdm.umd.js",
+  "module": "dist/kcdm.esm.js",
+  "unpkg": "dist/kcdm.min.js",
   "scripts": {
     "build": "rimraf dist && npm run build:browser && npm run build:es && npm run build:umd",
     "build:browser": "rollup --config build/rollup.config.browser.js",
