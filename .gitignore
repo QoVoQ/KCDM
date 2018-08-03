@@ -1,0 +1,44 @@
+# Visual Stadio Code
+.vscode
+
+# JetBrains
+.idea
+*.iml
+out
+gen
+
+# Node.js
+node_modules
+
+# npm
+.npm
+package-lock.json
+npm-debug.log*
+
+# yarn
+yarn-debug.log*
+yarn-error.log*
+.yarn-integrity
+
+# jspm
+jspm_packages
+
+# Logs
+logs
+*.log
+
+# Grunt
+.grunt
+
+# Bower
+bower_components
+
+# eslint
+.eslintcache
+
+dist
+
+input
+output/DECIPHERED.json
+secret
+test

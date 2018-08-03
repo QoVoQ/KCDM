@@ -1,0 +1,29 @@
+{
+  "name": "KCDM",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/KCDM.umd.js",
+  "module": "dist/KCDM.esm.js",
+  "unpkg": "dist/KCDM.min.js",
+  "scripts": {
+    "build": "rimraf dist && npm run build:browser && npm run build:es && npm run build:umd",
+    "build:browser": "rollup --config build/rollup.config.browser.js",
+    "build:es": "rollup --config build/rollup.config.es.js",
+    "build:umd": "rollup --config build/rollup.config.umd.js",
+    "dev": "rollup --config build/rollup.config.umd.js --watch",
+    "test": "rimraf output && node test/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rimraf": "^2.6.2",
+    "simple-crypto-js": "^2.0.2"
+  },
+  "devDependencies": {
+    "fs-extra": "^7.0.0",
+    "rollup": "^0.59.2",
+    "rollup-plugin-buble": "^0.19.2",
+    "rollup-plugin-uglify": "^4.0.0"
+  }
+}
